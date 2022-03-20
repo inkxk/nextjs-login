@@ -69,7 +69,6 @@ export default function Home() {
                                     onClose={handleCloseUserMenu}
                                 >
                                     <MenuItem
-                                        key={setting}
                                         onClick={handleCloseUserMenu}
                                     >
                                         <Typography textAlign="center" onClick={() => signOut()}>
